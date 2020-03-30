@@ -93,6 +93,24 @@
 <pad name="P$17" x="-10.16" y="-17.78" drill="0.6" shape="square"/>
 <pad name="P$18" x="-7.62" y="-17.78" drill="0.6" shape="square"/>
 </package>
+<package name="LCD_MC21605C6W-BNMLW-V2">
+<pad name="P$1" x="-25.4" y="0" drill="0.6" shape="square"/>
+<pad name="P$2" x="-22.86" y="0" drill="0.6" shape="square"/>
+<pad name="P$3" x="-20.32" y="0" drill="0.6" shape="square"/>
+<pad name="P$4" x="-17.78" y="0" drill="0.6" shape="square"/>
+<pad name="P$5" x="-15.24" y="0" drill="0.6" shape="square"/>
+<pad name="P$6" x="-12.7" y="0" drill="0.6" shape="square"/>
+<pad name="P$7" x="-10.16" y="0" drill="0.6" shape="square"/>
+<pad name="P$8" x="-7.62" y="0" drill="0.6" shape="square"/>
+<pad name="P$9" x="-5.08" y="0" drill="0.6" shape="square"/>
+<pad name="P$10" x="-2.54" y="0" drill="0.6" shape="square"/>
+<pad name="P$11" x="0" y="0" drill="0.6" shape="square"/>
+<pad name="P$12" x="2.54" y="0" drill="0.6" shape="square"/>
+<pad name="P$13" x="5.08" y="0" drill="0.6" shape="square"/>
+<pad name="P$14" x="7.62" y="0" drill="0.6" shape="square"/>
+<pad name="P$15" x="10.16" y="0" drill="0.6" shape="square"/>
+<pad name="P$16" x="12.7" y="0" drill="0.6" shape="square"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TMC2209-SILENTSTEPSTICK">
@@ -137,6 +155,33 @@
 <pin name="P$17" x="-12.7" y="-25.4" visible="pad" length="middle" rot="R90"/>
 <pin name="P$18" x="-5.08" y="-25.4" visible="pad" length="middle" rot="R90"/>
 </symbol>
+<symbol name="LCD_MC21605C6W-BNMLW-V2">
+<wire x1="-43.18" y1="10.16" x2="-43.18" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="-10.16" x2="48.26" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-10.16" x2="48.26" y2="10.16" width="0.254" layer="94"/>
+<wire x1="48.26" y1="10.16" x2="-43.18" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="0" x2="-40.64" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="-7.62" x2="38.1" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-7.62" x2="38.1" y2="0" width="0.254" layer="94"/>
+<wire x1="38.1" y1="0" x2="-40.64" y2="0" width="0.254" layer="94"/>
+<text x="-38.862" y="-5.588" size="3.81" layer="94">LCD 2x16</text>
+<pin name="VSS" x="-40.64" y="15.24" length="middle" rot="R270"/>
+<pin name="VDD" x="-35.56" y="15.24" length="middle" rot="R270"/>
+<pin name="V0" x="-30.48" y="15.24" length="middle" rot="R270"/>
+<pin name="RS" x="-25.4" y="15.24" length="middle" rot="R270"/>
+<pin name="R/W" x="-20.32" y="15.24" length="middle" rot="R270"/>
+<pin name="E" x="-15.24" y="15.24" length="middle" rot="R270"/>
+<pin name="DB0" x="-10.16" y="15.24" length="middle" rot="R270"/>
+<pin name="DB1" x="-5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="DB2" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="DB3" x="5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="DB4" x="10.16" y="15.24" length="middle" rot="R270"/>
+<pin name="DB5" x="15.24" y="15.24" length="middle" rot="R270"/>
+<pin name="DB6" x="20.32" y="15.24" length="middle" rot="R270"/>
+<pin name="DB7" x="25.4" y="15.24" length="middle" rot="R270"/>
+<pin name="LED+" x="30.48" y="15.24" length="middle" rot="R270"/>
+<pin name="LED-" x="35.56" y="15.24" length="middle" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TMC2209-SILENTSTEPSTICK">
@@ -164,6 +209,36 @@
 <connect gate="G$1" pin="P$7" pad="P$7"/>
 <connect gate="G$1" pin="P$8" pad="P$8"/>
 <connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LCD_MC21605C6W-BNMLW-V2">
+<gates>
+<gate name="G$1" symbol="LCD_MC21605C6W-BNMLW-V2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LCD_MC21605C6W-BNMLW-V2">
+<connects>
+<connect gate="G$1" pin="DB0" pad="P$7"/>
+<connect gate="G$1" pin="DB1" pad="P$8"/>
+<connect gate="G$1" pin="DB2" pad="P$9"/>
+<connect gate="G$1" pin="DB3" pad="P$10"/>
+<connect gate="G$1" pin="DB4" pad="P$11"/>
+<connect gate="G$1" pin="DB5" pad="P$12"/>
+<connect gate="G$1" pin="DB6" pad="P$13"/>
+<connect gate="G$1" pin="DB7" pad="P$14"/>
+<connect gate="G$1" pin="E" pad="P$6"/>
+<connect gate="G$1" pin="LED+" pad="P$15"/>
+<connect gate="G$1" pin="LED-" pad="P$16"/>
+<connect gate="G$1" pin="R/W" pad="P$5"/>
+<connect gate="G$1" pin="RS" pad="P$4"/>
+<connect gate="G$1" pin="V0" pad="P$3"/>
+<connect gate="G$1" pin="VDD" pad="P$2"/>
+<connect gate="G$1" pin="VSS" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
