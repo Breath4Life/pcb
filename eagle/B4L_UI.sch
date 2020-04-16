@@ -11387,13 +11387,6 @@ Source: www.kingbright.com</description>
 <junction x="104.14" y="144.78"/>
 </segment>
 </net>
-<net name="B_MUTE_ALARM" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
-<label x="121.92" y="144.78" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -11563,20 +11556,29 @@ Source: www.kingbright.com</description>
 <junction x="104.14" y="88.9"/>
 </segment>
 </net>
-<net name="B_ACK_ALARM" class="0">
+<net name="B_ALARM_ACK" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 <label x="121.92" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="B_ALARM_MUTE" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
+<label x="121.92" y="144.78" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
-<text x="86.36" y="86.36" size="3.81" layer="94" align="center">Arduino header</text>
+<text x="86.36" y="91.44" size="3.81" layer="94" align="center">Arduino header
+(IO pins 23-53)</text>
 <text x="40.64" y="167.64" size="3.81" layer="94" align="center">LEDs</text>
-<text x="142.24" y="167.64" size="3.81" layer="94" align="center">Alarm part</text>
+<text x="200.66" y="167.64" size="3.81" layer="94" align="center">Alarm part
+(TO UPDATE)</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -11585,9 +11587,9 @@ Source: www.kingbright.com</description>
 <attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="180.34" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="SG1" gate="1" x="137.16" y="137.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="143.51" y="139.7" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="137.16" y="132.08" size="1.778" layer="96" rot="R270"/>
+<instance part="SG1" gate="1" x="195.58" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="201.93" y="139.7" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="195.58" y="132.08" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="LED4" gate="G$1" x="53.34" y="127" smashed="yes">
 <attribute name="NAME" x="56.896" y="122.428" size="1.778" layer="95" rot="R90"/>
@@ -11611,8 +11613,8 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY15" gate="GND" x="53.34" y="116.84" smashed="yes">
 <attribute name="VALUE" x="51.435" y="113.665" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY16" gate="GND" x="134.62" y="127" smashed="yes">
-<attribute name="VALUE" x="132.715" y="123.825" size="1.778" layer="96"/>
+<instance part="SUPPLY16" gate="GND" x="193.04" y="127" smashed="yes">
+<attribute name="VALUE" x="191.135" y="123.825" size="1.778" layer="96"/>
 </instance>
 <instance part="LED2" gate="G$1" x="33.02" y="127" smashed="yes">
 <attribute name="NAME" x="36.576" y="122.428" size="1.778" layer="95" rot="R90"/>
@@ -11640,11 +11642,11 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="77.47" y="79.375" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.47" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="71.12" y="27.94" smashed="yes">
-<attribute name="VALUE" x="69.215" y="24.765" size="1.778" layer="96"/>
+<instance part="SUPPLY11" gate="GND" x="66.04" y="76.2" smashed="yes" rot="R270">
+<attribute name="VALUE" x="62.865" y="78.105" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY12" gate="GND" x="99.06" y="27.94" smashed="yes">
-<attribute name="VALUE" x="97.155" y="24.765" size="1.778" layer="96"/>
+<instance part="SUPPLY12" gate="GND" x="104.14" y="76.2" smashed="yes" rot="R90">
+<attribute name="VALUE" x="107.315" y="74.295" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -11664,7 +11666,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="SG1" gate="1" pin="-"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
-<wire x1="134.62" y1="132.08" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="132.08" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -11677,28 +11679,21 @@ Source: www.kingbright.com</description>
 <wire x1="33.02" y1="121.92" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="35"/>
-<wire x1="81.28" y1="33.02" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="1"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<wire x1="71.12" y1="33.02" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="36"/>
-<wire x1="88.9" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="2"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-<wire x1="99.06" y1="33.02" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ALARM_SOUND" class="0">
 <segment>
 <pinref part="SG1" gate="1" pin="+"/>
-<wire x1="134.62" y1="139.7" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
-<label x="134.62" y="149.86" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="25"/>
-<wire x1="81.28" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
-<label x="73.66" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="193.04" y1="139.7" x2="193.04" y2="149.86" width="0.1524" layer="91"/>
+<label x="193.04" y="149.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11736,9 +11731,9 @@ Source: www.kingbright.com</description>
 <label x="22.86" y="160.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="30"/>
-<wire x1="88.9" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
-<label x="96.52" y="40.64" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="81.28" y1="68.58" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
+<label x="68.58" y="68.58" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="LED_ALARM_PAUSED" class="0">
@@ -11748,172 +11743,171 @@ Source: www.kingbright.com</description>
 <label x="33.02" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="29"/>
-<wire x1="81.28" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
-<label x="73.66" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="88.9" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<label x="101.6" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ALARM_LED_LPA" class="0">
+<net name="B_UP" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="32"/>
+<wire x1="88.9" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<label x="101.6" y="38.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="B_DOWN" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="31"/>
+<wire x1="81.28" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<label x="68.58" y="38.1" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="B_RIGHT" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="34"/>
+<wire x1="88.9" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<label x="101.6" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="B_LEFT" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="33"/>
+<wire x1="81.28" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
+<label x="68.58" y="35.56" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="B_FREQ_RESPI_UP" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="28"/>
+<wire x1="88.9" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
+<label x="101.6" y="43.18" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="B_STARTSTOP" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="17"/>
+<wire x1="81.28" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
+<label x="68.58" y="55.88" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="B_VTIDAL_UP" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="30"/>
+<wire x1="88.9" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<label x="101.6" y="40.64" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ARD_5VDC" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="35"/>
+<wire x1="81.28" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
+<label x="68.58" y="33.02" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="36"/>
+<wire x1="88.9" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
+<label x="101.6" y="33.02" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_D4" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="19"/>
+<wire x1="81.28" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
+<label x="68.58" y="53.34" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_D5" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="20"/>
+<wire x1="88.9" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
+<label x="101.6" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_D6" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="21"/>
+<wire x1="81.28" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
+<label x="68.58" y="50.8" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_D7" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="22"/>
+<wire x1="88.9" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
+<label x="101.6" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_RS" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="24"/>
+<wire x1="88.9" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
+<label x="101.6" y="48.26" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_EN" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="23"/>
+<wire x1="81.28" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<label x="68.58" y="48.26" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="LCD_RW" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="25"/>
+<wire x1="81.28" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
+<label x="68.58" y="45.72" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="B_ALARM_ACK" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="15"/>
+<wire x1="81.28" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
+<label x="68.58" y="58.42" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="B_VTIDAL_DOWN" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="27"/>
+<wire x1="81.28" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
+<label x="68.58" y="43.18" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="B_FREQ_RESPI_DOWN" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="29"/>
+<wire x1="81.28" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<label x="68.58" y="40.64" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+</net>
+<net name="B_ALARM_MUTE" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="18"/>
+<wire x1="88.9" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
+<label x="101.6" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED_ALARM_LPA" class="0">
 <segment>
 <pinref part="RLED4" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="142.24" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 <label x="53.34" y="144.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="27"/>
-<wire x1="81.28" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
-<label x="48.26" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="88.9" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<label x="101.6" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ALARM_LED_HPA" class="0">
+<net name="LED_ALARM_HPA" class="0">
 <segment>
 <pinref part="RLED3" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="142.24" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <label x="43.18" y="149.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="26"/>
-<wire x1="88.9" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
-<label x="96.52" y="45.72" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="B_UP" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="5"/>
-<wire x1="81.28" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
-<label x="73.66" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="B_DOWN" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="6"/>
-<wire x1="88.9" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<label x="96.52" y="71.12" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="B_RIGHT" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="81.28" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
-<label x="55.88" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="B_LEFT" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="88.9" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
-<label x="114.3" y="73.66" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="B_FREQ_RESPI_UP" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="9"/>
-<wire x1="81.28" y1="66.04" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
-<label x="73.66" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="B_MUTE_ALARM" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="19"/>
-<wire x1="81.28" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
-<label x="48.26" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="B_STARTSTOP" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="20"/>
-<wire x1="88.9" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<label x="124.46" y="53.34" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="B_VTIDAL_UP" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="81.28" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
-<label x="48.26" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ARD_5VDC" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="88.9" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
-<label x="96.52" y="76.2" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="81.28" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
-<label x="73.66" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LCD_D4" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="18"/>
-<wire x1="88.9" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
-<label x="96.52" y="55.88" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LCD_D5" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="17"/>
-<wire x1="81.28" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
-<label x="73.66" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LCD_D6" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="16"/>
-<wire x1="88.9" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
-<label x="124.46" y="58.42" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LCD_D7" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="15"/>
-<wire x1="81.28" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
-<label x="48.26" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LCD_RS" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="13"/>
-<wire x1="81.28" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
-<label x="73.66" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LCD_EN" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="14"/>
-<wire x1="88.9" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
-<label x="96.52" y="60.96" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="B_VTIDAL_DOWN_TO_BE_CHANGED" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="88.9" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
-<label x="124.46" y="68.58" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="B_FREQ_RESPI_DOWN_TO_BE_CHANGED" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="10"/>
-<wire x1="88.9" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<label x="96.52" y="66.04" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LCD_RW" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="12"/>
-<wire x1="88.9" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
-<label x="124.46" y="63.5" size="1.778" layer="95" xref="yes"/>
-<label x="124.46" y="63.5" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="AUX_ALARM_GATE" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="21"/>
-<wire x1="81.28" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
-<label x="73.66" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="11"/>
+<wire x1="81.28" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<label x="68.58" y="63.5" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -11922,6 +11916,10 @@ Source: www.kingbright.com</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
