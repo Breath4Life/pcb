@@ -18522,7 +18522,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="F1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="FUSE" device="" package3d_urn="urn:adsk.eagle:package:26650/1" value="MST 4A 250V"/>
 <part name="D2" library="1N5822" deviceset="1N5822" device="" value="1N4007RLG"/>
-<part name="D3" library="1N5822" deviceset="1N5822" device="" value="SB240-E3/54"/>
+<part name="D3" library="1N5822" deviceset="1N5822" device="" value="SB260-E3/54"/>
 <part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="BUZ10" device="" package3d_urn="urn:adsk.eagle:package:28520/1" value="STP40NF03L"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="100k"/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZV10" device="" package3d_urn="urn:adsk.eagle:package:43364/1" value="1N5349BG"/>
@@ -18547,9 +18547,11 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="100k"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="100k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2" value="1k"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/2" value="1mF"/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18721,6 +18723,13 @@ supply</text>
 <attribute name="NAME" x="97.536" y="36.068" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="99.695" y="36.068" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="C3" gate="G$1" x="218.44" y="88.9" smashed="yes">
+<attribute name="NAME" x="219.583" y="89.3826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.583" y="84.3026" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY16" gate="GND" x="218.44" y="78.74" smashed="yes">
+<attribute name="VALUE" x="216.535" y="75.565" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18864,6 +18873,11 @@ supply</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="20.32" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
+<wire x1="218.44" y1="83.82" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VOUT-12/9VDC" class="0">
 <segment>
@@ -18964,8 +18978,12 @@ supply</text>
 <net name="48VDC" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="93.98" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
-<label x="226.06" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="233.68" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
+<label x="213.36" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<wire x1="218.44" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="91.44" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
+<junction x="218.44" y="93.98"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="+"/>
