@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1063,6 +1063,122 @@ NS Package M08A</description>
 <text x="-8.2042" y="8.4328" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-7.0866" y="3.175" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="CAPAE1030X1400N">
+<smd name="1" x="-4.064" y="0" dx="4.1656" dy="1.1938" layer="1"/>
+<smd name="2" x="4.064" y="0" dx="4.1656" dy="1.1938" layer="1"/>
+<wire x1="6.4008" y1="-5.4102" x2="-6.4008" y2="-5.4102" width="0.1524" layer="39"/>
+<wire x1="-6.4008" y1="-5.4102" x2="-6.4008" y2="5.4102" width="0.1524" layer="39"/>
+<wire x1="-6.4008" y1="5.4102" x2="6.4008" y2="5.4102" width="0.1524" layer="39"/>
+<wire x1="6.4008" y1="5.4102" x2="6.4008" y2="-5.4102" width="0.1524" layer="39"/>
+<wire x1="5.1562" y1="0.9398" x2="5.1562" y2="5.1562" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="-0.9398" x2="-5.1562" y2="-2.5654" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="-2.5654" x2="-5.1562" y2="-5.1562" width="0.1524" layer="21"/>
+<wire x1="-6.8834" y1="0" x2="-7.6454" y2="0" width="0.1524" layer="21"/>
+<wire x1="-7.2644" y1="0.381" x2="-7.2644" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="2.5654" x2="-2.5654" y2="5.1562" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="-2.5654" x2="-2.5654" y2="-5.1562" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="-5.1562" x2="5.1562" y2="-5.1562" width="0.1524" layer="21"/>
+<wire x1="5.1562" y1="-5.1562" x2="5.1562" y2="-0.9398" width="0.1524" layer="21"/>
+<wire x1="5.1562" y1="5.1562" x2="-5.1562" y2="5.1562" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="5.1562" x2="-5.1562" y2="0.9398" width="0.1524" layer="21"/>
+<wire x1="-6.8834" y1="0" x2="-7.6454" y2="0" width="0.1524" layer="51"/>
+<wire x1="-7.2644" y1="0.381" x2="-7.2644" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-5.1562" y1="2.5654" x2="-2.5654" y2="5.1562" width="0.1524" layer="51"/>
+<wire x1="-5.1562" y1="-2.5654" x2="-2.5654" y2="-5.1562" width="0.1524" layer="51"/>
+<wire x1="-5.1562" y1="-5.1562" x2="5.1562" y2="-5.1562" width="0.1524" layer="51"/>
+<wire x1="5.1562" y1="-5.1562" x2="5.1562" y2="5.1562" width="0.1524" layer="51"/>
+<wire x1="5.1562" y1="5.1562" x2="-5.1562" y2="5.1562" width="0.1524" layer="51"/>
+<wire x1="-5.1562" y1="5.1562" x2="-5.1562" y2="-5.1562" width="0.1524" layer="51"/>
+<text x="-5.1054" y="5.842" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6134" y="-7.8486" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="CAPAE1030X1700N">
+<smd name="1" x="-4.064" y="0" dx="4.1656" dy="1.1938" layer="1"/>
+<smd name="2" x="4.064" y="0" dx="4.1656" dy="1.1938" layer="1"/>
+<wire x1="6.4008" y1="-5.4102" x2="-6.4008" y2="-5.4102" width="0.1524" layer="39"/>
+<wire x1="-6.4008" y1="-5.4102" x2="-6.4008" y2="5.4102" width="0.1524" layer="39"/>
+<wire x1="-6.4008" y1="5.4102" x2="6.4008" y2="5.4102" width="0.1524" layer="39"/>
+<wire x1="6.4008" y1="5.4102" x2="6.4008" y2="-5.4102" width="0.1524" layer="39"/>
+<wire x1="5.1562" y1="0.9398" x2="5.1562" y2="5.1562" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="-0.9398" x2="-5.1562" y2="-2.5654" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="-2.5654" x2="-5.1562" y2="-5.1562" width="0.1524" layer="21"/>
+<wire x1="-6.8834" y1="0" x2="-7.6454" y2="0" width="0.1524" layer="21"/>
+<wire x1="-7.2644" y1="0.381" x2="-7.2644" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="2.5654" x2="-2.5654" y2="5.1562" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="-2.5654" x2="-2.5654" y2="-5.1562" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="-5.1562" x2="5.1562" y2="-5.1562" width="0.1524" layer="21"/>
+<wire x1="5.1562" y1="-5.1562" x2="5.1562" y2="-0.9398" width="0.1524" layer="21"/>
+<wire x1="5.1562" y1="5.1562" x2="-5.1562" y2="5.1562" width="0.1524" layer="21"/>
+<wire x1="-5.1562" y1="5.1562" x2="-5.1562" y2="0.9398" width="0.1524" layer="21"/>
+<wire x1="-6.8834" y1="0" x2="-7.6454" y2="0" width="0.1524" layer="51"/>
+<wire x1="-7.2644" y1="0.381" x2="-7.2644" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-5.1562" y1="2.5654" x2="-2.5654" y2="5.1562" width="0.1524" layer="51"/>
+<wire x1="-5.1562" y1="-2.5654" x2="-2.5654" y2="-5.1562" width="0.1524" layer="51"/>
+<wire x1="-5.1562" y1="-5.1562" x2="5.1562" y2="-5.1562" width="0.1524" layer="51"/>
+<wire x1="5.1562" y1="-5.1562" x2="5.1562" y2="5.1562" width="0.1524" layer="51"/>
+<wire x1="5.1562" y1="5.1562" x2="-5.1562" y2="5.1562" width="0.1524" layer="51"/>
+<wire x1="-5.1562" y1="5.1562" x2="-5.1562" y2="-5.1562" width="0.1524" layer="51"/>
+<text x="-4.8006" y="5.7404" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.461" y="-7.6454" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="CAPAE1350X1700N">
+<smd name="1" x="-4.9784" y="0" dx="5.3594" dy="1.1938" layer="1"/>
+<smd name="2" x="4.9784" y="0" dx="5.3594" dy="1.1938" layer="1"/>
+<wire x1="7.8994" y1="-7.0104" x2="-7.8994" y2="-7.0104" width="0.1524" layer="39"/>
+<wire x1="-7.8994" y1="-7.0104" x2="-7.8994" y2="7.0104" width="0.1524" layer="39"/>
+<wire x1="-7.8994" y1="7.0104" x2="7.8994" y2="7.0104" width="0.1524" layer="39"/>
+<wire x1="7.8994" y1="7.0104" x2="7.8994" y2="-7.0104" width="0.1524" layer="39"/>
+<wire x1="6.7564" y1="0.9398" x2="6.7564" y2="6.7564" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="-0.9398" x2="-6.7564" y2="-3.3782" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="-3.3782" x2="-6.7564" y2="-6.7564" width="0.1524" layer="21"/>
+<wire x1="-8.382" y1="0" x2="-9.144" y2="0" width="0.1524" layer="21"/>
+<wire x1="-8.763" y1="0.381" x2="-8.763" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="3.3782" x2="-3.3782" y2="6.7564" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="-3.3782" x2="-3.3782" y2="-6.7564" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="-6.7564" x2="6.7564" y2="-6.7564" width="0.1524" layer="21"/>
+<wire x1="6.7564" y1="-6.7564" x2="6.7564" y2="-0.9398" width="0.1524" layer="21"/>
+<wire x1="6.7564" y1="6.7564" x2="-6.7564" y2="6.7564" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="6.7564" x2="-6.7564" y2="0.9398" width="0.1524" layer="21"/>
+<wire x1="-8.382" y1="0" x2="-9.144" y2="0" width="0.1524" layer="51"/>
+<wire x1="-8.763" y1="0.381" x2="-8.763" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-6.7564" y1="3.3782" x2="-3.3782" y2="6.7564" width="0.1524" layer="51"/>
+<wire x1="-6.7564" y1="-3.3782" x2="-3.3782" y2="-6.7564" width="0.1524" layer="51"/>
+<wire x1="-6.7564" y1="-6.7564" x2="6.7564" y2="-6.7564" width="0.1524" layer="51"/>
+<wire x1="6.7564" y1="-6.7564" x2="6.7564" y2="6.7564" width="0.1524" layer="51"/>
+<wire x1="6.7564" y1="6.7564" x2="-6.7564" y2="6.7564" width="0.1524" layer="51"/>
+<wire x1="-6.7564" y1="6.7564" x2="-6.7564" y2="-6.7564" width="0.1524" layer="51"/>
+<text x="-5.2324" y="7.3152" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-6.1976" y="-9.271" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="CAPAE1900X2200N">
+<smd name="1" x="-6.9596" y="0" dx="7.366" dy="1.4986" layer="1"/>
+<smd name="2" x="6.9596" y="0" dx="7.366" dy="1.4986" layer="1"/>
+<wire x1="10.8966" y1="-9.8552" x2="-10.8966" y2="-9.8552" width="0.1524" layer="39"/>
+<wire x1="-10.8966" y1="-9.8552" x2="-10.8966" y2="9.8552" width="0.1524" layer="39"/>
+<wire x1="-10.8966" y1="9.8552" x2="10.8966" y2="9.8552" width="0.1524" layer="39"/>
+<wire x1="10.8966" y1="9.8552" x2="10.8966" y2="-9.8552" width="0.1524" layer="39"/>
+<wire x1="9.6012" y1="1.0922" x2="9.6012" y2="9.6012" width="0.1524" layer="21"/>
+<wire x1="-9.6012" y1="-1.0922" x2="-9.6012" y2="-4.8006" width="0.1524" layer="21"/>
+<wire x1="-9.6012" y1="-4.8006" x2="-9.6012" y2="-9.6012" width="0.1524" layer="21"/>
+<wire x1="-11.3792" y1="0" x2="-12.1412" y2="0" width="0.1524" layer="21"/>
+<wire x1="-11.7602" y1="0.381" x2="-11.7602" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-9.6012" y1="4.8006" x2="-4.8006" y2="9.6012" width="0.1524" layer="21"/>
+<wire x1="-9.6012" y1="-4.8006" x2="-4.8006" y2="-9.6012" width="0.1524" layer="21"/>
+<wire x1="-9.6012" y1="-9.6012" x2="9.6012" y2="-9.6012" width="0.1524" layer="21"/>
+<wire x1="9.6012" y1="-9.6012" x2="9.6012" y2="-1.0922" width="0.1524" layer="21"/>
+<wire x1="9.6012" y1="9.6012" x2="-9.6012" y2="9.6012" width="0.1524" layer="21"/>
+<wire x1="-9.6012" y1="9.6012" x2="-9.6012" y2="1.0922" width="0.1524" layer="21"/>
+<wire x1="-11.3792" y1="0" x2="-12.1412" y2="0" width="0.1524" layer="51"/>
+<wire x1="-11.7602" y1="0.381" x2="-11.7602" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-9.6012" y1="4.8006" x2="-4.8006" y2="9.6012" width="0.1524" layer="51"/>
+<wire x1="-9.6012" y1="-4.8006" x2="-4.8006" y2="-9.6012" width="0.1524" layer="51"/>
+<wire x1="-9.6012" y1="-9.6012" x2="9.6012" y2="-9.6012" width="0.1524" layer="51"/>
+<wire x1="9.6012" y1="-9.6012" x2="9.6012" y2="9.6012" width="0.1524" layer="51"/>
+<wire x1="9.6012" y1="9.6012" x2="-9.6012" y2="9.6012" width="0.1524" layer="51"/>
+<wire x1="-9.6012" y1="9.6012" x2="-9.6012" y2="-9.6012" width="0.1524" layer="51"/>
+<text x="-4.826" y="9.9822" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-6.477" y="-12.2682" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIL08" urn="urn:adsk.eagle:package:16409/2" type="model">
@@ -1341,6 +1457,20 @@ NS Package M08A</description>
 <wire x1="68.58" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="33.3756" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="32.7406" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3716,12 +3846,12 @@ NS Package M08A</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM211P" prefix="U">
+<deviceset name="LM211P" prefix="IC">
 <gates>
 <gate name="A" symbol="LM211_P_8" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="P8">
+<device name="DIP" package="P8">
 <connects>
 <connect gate="A" pin="BAL/STRB" pad="6"/>
 <connect gate="A" pin="BALANCE" pad="5"/>
@@ -3742,6 +3872,459 @@ NS Package M08A</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="PACKAGE_DESIGNATOR" value="P" constant="no"/>
 <attribute name="PIN_COUNT" value="8" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOIC" package="SO08">
+<connects>
+<connect gate="A" pin="BAL/STRB" pad="6"/>
+<connect gate="A" pin="BALANCE" pad="5"/>
+<connect gate="A" pin="COLOUT" pad="7"/>
+<connect gate="A" pin="EMITOUT" pad="1"/>
+<connect gate="A" pin="IN+" pad="2"/>
+<connect gate="A" pin="IN-" pad="3"/>
+<connect gate="A" pin="VCC+" pad="8"/>
+<connect gate="A" pin="VCC-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16404/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEV-" prefix="C">
+<description>Aluminum Electrolytic Capacitors,Surface Mount Type</description>
+<gates>
+<gate name="A" symbol="PCAPH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-CASE-G13" package="CAPAE1030X1400N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="EB2G3R3Q">
+<attribute name="MPN" value="EEV-EB2G3R3Q" constant="no"/>
+<attribute name="OC_FARNELL" value="2282080  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3888" constant="no"/>
+<attribute name="PACKAGE" value="CASE-G13" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="3.3UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="400V" constant="no"/>
+</technology>
+<technology name="EB2W2R2Q">
+<attribute name="MPN" value="EEV-EB2W2R2Q" constant="no"/>
+<attribute name="OC_FARNELL" value="2282084  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3891" constant="no"/>
+<attribute name="PACKAGE" value="CASE-G13" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="2.2UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="450V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-CASE-G17" package="CAPAE1030X1700N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="EB2G4R7Q">
+<attribute name="MPN" value="EEV-EB2G4R7Q" constant="no"/>
+<attribute name="OC_FARNELL" value="2282081  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3889" constant="no"/>
+<attribute name="PACKAGE" value="CASE-G17" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="4.7UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="400V" constant="no"/>
+</technology>
+<technology name="EB2W3R3Q">
+<attribute name="MPN" value="EEV-EB2W3R3Q" constant="no"/>
+<attribute name="OC_FARNELL" value="2282086  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3893" constant="no"/>
+<attribute name="PACKAGE" value="CASE-G17" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="3.3UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="450V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-CASE-H13" package="CAPAE1350X1400N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="FK0J332Q">
+<attribute name="MPN" value="EEV-FK0J332Q" constant="no"/>
+<attribute name="OC_FARNELL" value="2282088  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3895" constant="no"/>
+<attribute name="PACKAGE" value="CASE-H13" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="3300UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="6.3V" constant="no"/>
+</technology>
+<technology name="FK1A222Q">
+<attribute name="MPN" value="EEV-FK1A222Q" constant="no"/>
+<attribute name="OC_FARNELL" value="2282090  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3897" constant="no"/>
+<attribute name="PACKAGE" value="CASE-H13" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="2200UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="10V" constant="no"/>
+</technology>
+<technology name="FK1C152Q">
+<attribute name="MPN" value="EEV-FK1C152Q" constant="no"/>
+<attribute name="OC_FARNELL" value="2282093  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3900" constant="no"/>
+<attribute name="PACKAGE" value="CASE-H13" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="1500UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="16V" constant="no"/>
+</technology>
+<technology name="TG1C102UQ">
+<attribute name="MPN" value="EEV-TG1C102UQ" constant="no"/>
+<attribute name="OC_FARNELL" value="2282109  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3915" constant="no"/>
+<attribute name="PACKAGE" value="CASE-H13" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="1000UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-CASE-H16" package="CAPAE1350X1700N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="EB2W4R7SQ">
+<attribute name="MPN" value="EEV-EB2W4R7SQ" constant="no"/>
+<attribute name="OC_FARNELL" value="2282087  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3894" constant="no"/>
+<attribute name="PACKAGE" value="CASE-H16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="4.7UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="450V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-CASE-J16" package="CAPAE1700X1700N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="FK0J682M">
+<attribute name="MPN" value="EEV-FK0J682M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282089  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3896" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="6800UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="6.3V" constant="no"/>
+</technology>
+<technology name="FK1A472M">
+<attribute name="MPN" value="EEV-FK1A472M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282091  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3898" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="4700UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="10V" constant="no"/>
+</technology>
+<technology name="FK1C332M">
+<attribute name="MPN" value="EEV-FK1C332M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282095  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3901" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="3300UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="16V" constant="no"/>
+</technology>
+<technology name="FK1E222M">
+<attribute name="MPN" value="EEV-FK1E222M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282097  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3904" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="2200UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="25V" constant="no"/>
+</technology>
+<technology name="FK1K331M">
+<attribute name="MPN" value="EEV-FK1K331M" constant="no"/>
+<attribute name="OC_FARNELL" value="3836320  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W8328" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="330UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="80V" constant="no"/>
+</technology>
+<technology name="FK1V102M">
+<attribute name="MPN" value="EEV-FK1V102M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282103  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3909" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="1000UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="35V" constant="no"/>
+</technology>
+<technology name="FK1V152M">
+<attribute name="MPN" value="EEV-FK1V152M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282104  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3910" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="1500UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="35V" constant="no"/>
+</technology>
+<technology name="FK2A101M">
+<attribute name="MPN" value="EEV-FK2A101M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282107  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3913" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="100UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="100V" constant="no"/>
+</technology>
+<technology name="TG1E102UM">
+<attribute name="MPN" value="EEV-TG1E102UM" constant="no"/>
+<attribute name="OC_FARNELL" value="2282111  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3917" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="1000UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="25V" constant="no"/>
+</technology>
+<technology name="TG2A101M">
+<attribute name="MPN" value="EEV-TG2A101M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282127  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3931" constant="no"/>
+<attribute name="PACKAGE" value="CASE-J16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="100UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-CASE-K16" package="CAPAE1900X1700N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="FK1A682M">
+<attribute name="MPN" value="EEV-FK1A682M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282092  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3899" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="6800UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="10V" constant="no"/>
+</technology>
+<technology name="FK1C472M">
+<attribute name="MPN" value="EEV-FK1C472M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282096  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3902" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="4700UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="16V" constant="no"/>
+</technology>
+<technology name="FK1E332M">
+<attribute name="MPN" value="EEV-FK1E332M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282098  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3905" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="3300UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="25V" constant="no"/>
+</technology>
+<technology name="FK2A331M">
+<attribute name="MPN" value="EEV-FK2A331M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282108  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3914" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="330UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="100V" constant="no"/>
+</technology>
+<technology name="TG1E222M">
+<attribute name="MPN" value="EEV-TG1E222M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282113  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3918" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="2200UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="25V" constant="no"/>
+</technology>
+<technology name="TG1H102M">
+<attribute name="MPN" value="EEV-TG1H102M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282116  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3921" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="1000UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="50V" constant="no"/>
+</technology>
+<technology name="TG1V102M">
+<attribute name="MPN" value="EEV-TG1V102M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282123  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3928" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="1000UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="35V" constant="no"/>
+</technology>
+<technology name="TG2A331M">
+<attribute name="MPN" value="EEV-TG2A331M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282128  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3932" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K16" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="330UF" constant="no"/>
+<attribute name="VOLTAGERATING" value=" 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-CASE-K21" package="CAPAE1900X2200N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="EB2D101M">
+<attribute name="MPN" value="EEV-EB2D101M" constant="no"/>
+<attribute name="OC_FARNELL" value="2282073  " constant="no"/>
+<attribute name="OC_NEWARK" value="53W3881" constant="no"/>
+<attribute name="PACKAGE" value="CASE-K21" constant="no"/>
+<attribute name="SUPPLIER" value="PANASONIC" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="100UF" constant="no"/>
+<attribute name="VOLTAGERATING" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2576HV" prefix="IC">
+<description>&lt;b&gt;&lt;a href=http://www.national.com&gt;National Semiconductor&lt;/a&gt; 3.0A "Simple Switcher"(c)&lt;/b&gt;&lt;p&gt;
+52kHz, Vout 1.23-37V (HV: 57V), Vin 40V (HV: 60V), 50µA standby current</description>
+<gates>
+<gate name="A" symbol="LM2575" x="0" y="0"/>
+</gates>
+<devices>
+<device name="T" package="TO220-5">
+<connects>
+<connect gate="A" pin="FB" pad="4"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="OFF" pad="5"/>
+<connect gate="A" pin="OUT" pad="2"/>
+<connect gate="A" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="TO263-5">
+<connects>
+<connect gate="A" pin="FB" pad="4"/>
+<connect gate="A" pin="GND" pad="3 6"/>
+<connect gate="A" pin="OFF" pad="5"/>
+<connect gate="A" pin="OUT" pad="2"/>
+<connect gate="A" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B360A-13-F">
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO214AC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESIA+" prefix="D" uservalue="yes">
+<gates>
+<gate name="A" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO214AC">
+<connects>
+<connect gate="A" pin="A" pad="A"/>
+<connect gate="A" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEVFK1K471M" prefix="C">
+<description>Aluminum Electrolytic Capacitors,Surface Mount Type</description>
+<gates>
+<gate name="A" symbol="PCAPH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-CASE-K16" package="CAPAE1900X1700N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGERATING" value="" constant="no"/>
 </technology>
 </technologies>
 </device>

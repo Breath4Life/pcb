@@ -18783,6 +18783,14 @@ supply</text>
 <wire x1="93.98" y1="43.18" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <label x="93.98" y="45.72" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="VCC+"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="60.96" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<junction x="203.2" y="60.96"/>
+<label x="203.2" y="63.5" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -19024,13 +19032,6 @@ supply</text>
 <wire x1="116.84" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 <junction x="116.84" y="55.88"/>
 <pinref part="U1" gate="A" pin="IN-"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="VCC+"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
