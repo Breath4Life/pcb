@@ -13813,7 +13813,6 @@ naming: grid - package width</description>
 <wire x1="71.12" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="94"/>
 <wire x1="33.02" y1="27.94" x2="33.02" y2="45.72" width="0.1524" layer="94"/>
 <text x="162.56" y="170.18" size="3.81" layer="94" align="center-left">TODO
-- connectors/pin headers for motor drivers
 - connectors/pin headers for buzzer</text>
 <text x="132.08" y="93.98" size="1.778" layer="91">Arduino header
 (IO pins 2-7, 13)</text>
