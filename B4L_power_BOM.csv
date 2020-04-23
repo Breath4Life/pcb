@@ -1,25 +1,25 @@
-Type;Fabricant;Ref. Fabricant;Distributeur;Ref. Distributeur;Quantité;Link
-Fusible;MULTICOMP PRO;MST 4A 250V;Farnell;1566107;1;https://be.farnell.com/fr-BE/multicomp/mst-4a-250v/fusible-radial-action-lente-bbas/dp/1566107?ost=1566107&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fsearch
-Résistance 100k;MULTICOMP PRO;MCRE000061;Farnell;1700264;4;https://be.farnell.com/fr-BE/multicomp/mcre000061/resistance-couche-carbon-100k/dp/1700264
-Résistance 56k;MULTICOMP PRO;MCF 0.25W 56K;Farnell;9339612;1;https://be.farnell.com/fr-BE/multicomp/mcf-0-25w-56k/resistance-0-25w-5-56k/dp/9339612
-Diode Zener 12V;ON SEMICONDUCTOR;1N5349BG;Farnell;9558071;1;https://be.farnell.com/fr-BE/on-semiconductor/1n5349bg/diode-zener-5w-12v/dp/9558071?scope=partnumberlookahead&ost=1N5349BG&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
-NMOS;STMICROELECTRONICS;STP40NF03L;Farnell;9803149;1;https://be.farnell.com/fr-BE/stmicroelectronics/stp40nf03l/mosfet-n-to-220/dp/9803149?scope=partnumberlookahead&ost=STP40NF03L&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
-Condensateur 100µF 100V;MULTICOMP PRO;MCGPR100V107M13X21;Farnell;9451595;1;https://be.farnell.com/fr-BE/multicomp/mcgpr100v107m13x21/condensateur-100-f-100v-20/dp/9451595?scope=partnumberlookahead&ost=MCGPR100V107M13X21&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
-DC/DC Buck;TEXAS INSTRUMENT;LM2576HVT-12/NOPB;Farnell;3008141;1;https://be.farnell.com/fr-BE/texas-instruments/lm2576hvt-12-nopb/ic-dc-dc-converter-3a/dp/3008141?st=LM2576HVT-12
-Diode;ON SEMICONDUCTOR;1N4007RLG;Farnell;2317417;1;https://be.farnell.com/fr-BE/on-semiconductor/1n4007rlg/diode-standard-1a-1kv-axial/dp/2317417?scope=partnumberlookahead&ost=2317417&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
-Diode Schottky 60V 680mV;VISHAY;SB260-E3/54;Farnell;2889214;2;https://be.farnell.com/fr-BE/vishay/sb260-e3-54/diode-schottky-simple-60v-do-204ac/dp/2889214?ost=2889214&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fsearch
-Inductance 330µH;BOURNS;RLB0914-331KL;Farnell;2309243;1;https://be.farnell.com/fr-BE/bourns/rlb0914-331kl/inductor-330uh/dp/2309243?scope=partnumberlookahead&ost=RLB0914-331KL&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
-Condensateur 330µF 50V;RUBYCON;50YXG330MEFC10X20;Farnell;2346224;1;https://be.farnell.com/fr-BE/rubycon/50yxg330mefc10x20/condensateur-330-f-50v-20/dp/2346224?ost=50YXG330MEFC10X20&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fsearch
-Résistance 1k;MULTICOMP PRO;MCF 0.25W 1K;Farnell;9339051;1;https://be.farnell.com/fr-BE/multicomp/mcf-0-25w-1k/resistance-couche-carbon-1k-0/dp/9339051
-Comparateur;TEXAS INSTRUMENT;LM211P;Farnell;3118394;1;https://be.farnell.com/fr-BE/texas-instruments/lm211p/comparator-differential-single/dp/3118394?st=LM211P
-LED rouge;KINGBRIGHT;L-934LID;Farnell;1142512;1;https://be.farnell.com/fr-BE/kingbright/l-934lid/led-3mm-faible-courant-rouge/dp/1142512
-Condensateur 1mF 63V;MULTICOMP PRO;MCRH63V108M16X32;Farnell;9452117;1;https://be.farnell.com/fr-BE/multicomp/mcrh63v108m16x32/condensateur-1000-f-63v-20/dp/9452117?ost=MCRH63V108M16X32&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fsearch
-Bornier 4 voies;CAMDENBOSS;CTB5202/4;Farnell;1717003;3;https://be.farnell.com/fr-BE/camdenboss/ctb5202-4/terminal-block-wire-to-brd-4pos/dp/1717003?scope=partnumberlookahead&ost=CTB5202%2F4&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
-;;;;;;
-Off-PCB;;;;;;
-Connecteur DC supply;KYCON;KPJX-PM-4S-S;Mouser;806-KPJX-PM-4S-S;1;https://www.mouser.be/ProductDetail/Kycon/KPJX-PM-4S-S?qs=sGAEpiMZZMtnOp%252BbbqA001IXQJRyqYiVXqexeqKahr4%3D
-Cordon AC;QUALTEK;360007-01;Mouser;562-360007-01;1;https://www.mouser.be/ProductDetail/Qualtek/360007-01?qs=sGAEpiMZZMvXcJVS4l7FP6gLthD%2Fc2vv%252Bz8hT%2FGuV%2FY%3D
-Adapteur AC/DC;MEAN WELL;GSM120B48-R7B;Mouser;709-GSM120B48-R7B;1;https://www.mouser.be/ProductDetail/MEAN-WELL/GSM120B48-R7B?qs=%2Fha2pyFadugmqBL%2Fn5CecWxYQpMspgqEbMOHgS7cx%252BibFHaw3dlD9w%3D%3D
-Connecteur batterie 9V;MULTICOMP PRO;MP000352;Farnell;3126590;1;https://be.farnell.com/fr-BE/multicomp-pro/mp000352/support-batterie-pp3-traversant/dp/3126590?scope=partnumberlookahead&ost=MP000352&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
-Commutateur DPST;ARCOLECTRIC;H8550VBACAB;Farnell;2068570;1;https://be.farnell.com/fr-BE/arcolectric/h8550vbacab/switch-antibacterial-dpst-black/dp/2068570?scope=partnumberlookahead&ost=H8550VBACAB&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
-Batterie 9V;;;;;;
+Type,Fabricant,Ref. Fabricant,Distributeur,Ref. Distributeur,Quantité,Link
+Fusible,MULTICOMP PRO,MST 4A 250V,Farnell,1566107,1,https://be.farnell.com/fr-BE/multicomp/mst-4a-250v/fusible-radial-action-lente-bbas/dp/1566107?ost=1566107&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fsearch
+Résistance 100k,MULTICOMP PRO,MCRE000061,Farnell,1700264,4,https://be.farnell.com/fr-BE/multicomp/mcre000061/resistance-couche-carbon-100k/dp/1700264
+Résistance 56k,MULTICOMP PRO,MCF 0.25W 56K,Farnell,9339612,1,https://be.farnell.com/fr-BE/multicomp/mcf-0-25w-56k/resistance-0-25w-5-56k/dp/9339612
+Diode Zener 12V,ON SEMICONDUCTOR,1N5349BG,Farnell,9558071,1,https://be.farnell.com/fr-BE/on-semiconductor/1n5349bg/diode-zener-5w-12v/dp/9558071?scope=partnumberlookahead&ost=1N5349BG&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
+NMOS,STMICROELECTRONICS,STP40NF03L,Farnell,9803149,1,https://be.farnell.com/fr-BE/stmicroelectronics/stp40nf03l/mosfet-n-to-220/dp/9803149?scope=partnumberlookahead&ost=STP40NF03L&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
+Condensateur 100µF 100V,MULTICOMP PRO,MCGPR100V107M13X21,Farnell,9451595,1,https://be.farnell.com/fr-BE/multicomp/mcgpr100v107m13x21/condensateur-100-f-100v-20/dp/9451595?scope=partnumberlookahead&ost=MCGPR100V107M13X21&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
+DC/DC Buck,TEXAS INSTRUMENT,LM2576HVT-12/NOPB,Farnell,3008141,1,https://be.farnell.com/fr-BE/texas-instruments/lm2576hvt-12-nopb/ic-dc-dc-converter-3a/dp/3008141?st=LM2576HVT-12
+Diode,ON SEMICONDUCTOR,1N4007RLG,Farnell,2317417,1,https://be.farnell.com/fr-BE/on-semiconductor/1n4007rlg/diode-standard-1a-1kv-axial/dp/2317417?scope=partnumberlookahead&ost=2317417&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
+Diode Schottky 60V 680mV,VISHAY,SB260-E3/54,Farnell,2889214,2,https://be.farnell.com/fr-BE/vishay/sb260-e3-54/diode-schottky-simple-60v-do-204ac/dp/2889214?ost=2889214&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fsearch
+Inductance 330µH,BOURNS,RLB0914-331KL,Farnell,2309243,1,https://be.farnell.com/fr-BE/bourns/rlb0914-331kl/inductor-330uh/dp/2309243?scope=partnumberlookahead&ost=RLB0914-331KL&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
+Condensateur 330µF 50V,RUBYCON,50YXG330MEFC10X20,Farnell,2346224,1,https://be.farnell.com/fr-BE/rubycon/50yxg330mefc10x20/condensateur-330-f-50v-20/dp/2346224?ost=50YXG330MEFC10X20&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fsearch
+Résistance 1k,MULTICOMP PRO,MCF 0.25W 1K,Farnell,9339051,1,https://be.farnell.com/fr-BE/multicomp/mcf-0-25w-1k/resistance-couche-carbon-1k-0/dp/9339051
+Comparateur,TEXAS INSTRUMENT,LM211P,Farnell,3118394,1,https://be.farnell.com/fr-BE/texas-instruments/lm211p/comparator-differential-single/dp/3118394?st=LM211P
+LED rouge,KINGBRIGHT,L-934LID,Farnell,1142512,1,https://be.farnell.com/fr-BE/kingbright/l-934lid/led-3mm-faible-courant-rouge/dp/1142512
+Condensateur 1mF 63V,MULTICOMP PRO,MCRH63V108M16X32,Farnell,9452117,1,https://be.farnell.com/fr-BE/multicomp/mcrh63v108m16x32/condensateur-1000-f-63v-20/dp/9452117?ost=MCRH63V108M16X32&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fsearch
+Bornier 4 voies,CAMDENBOSS,CTB5202/4,Farnell,1717003,3,https://be.farnell.com/fr-BE/camdenboss/ctb5202-4/terminal-block-wire-to-brd-4pos/dp/1717003?scope=partnumberlookahead&ost=CTB5202%2F4&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
+,,,,,,
+Off-PCB,,,,,,
+Connecteur DC supply,KYCON,KPJX-PM-4S-S,Mouser,806-KPJX-PM-4S-S,1,https://www.mouser.be/ProductDetail/Kycon/KPJX-PM-4S-S?qs=sGAEpiMZZMtnOp%252BbbqA001IXQJRyqYiVXqexeqKahr4%3D
+Cordon AC,QUALTEK,360007-01,Mouser,562-360007-01,1,https://www.mouser.be/ProductDetail/Qualtek/360007-01?qs=sGAEpiMZZMvXcJVS4l7FP6gLthD%2Fc2vv%252Bz8hT%2FGuV%2FY%3D
+Adapteur AC/DC,MEAN WELL,GSM120B48-R7B,Mouser,709-GSM120B48-R7B,1,https://www.mouser.be/ProductDetail/MEAN-WELL/GSM120B48-R7B?qs=%2Fha2pyFadugmqBL%2Fn5CecWxYQpMspgqEbMOHgS7cx%252BibFHaw3dlD9w%3D%3D
+Connecteur batterie 9V,MULTICOMP PRO,MP000352,Farnell,3126590,1,https://be.farnell.com/fr-BE/multicomp-pro/mp000352/support-batterie-pp3-traversant/dp/3126590?scope=partnumberlookahead&ost=MP000352&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
+Commutateur DPST,ARCOLECTRIC,H8550VBACAB,Farnell,2068570,1,https://be.farnell.com/fr-BE/arcolectric/h8550vbacab/switch-antibacterial-dpst-black/dp/2068570?scope=partnumberlookahead&ost=H8550VBACAB&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Afr-BE%2FElement14_Belgium%2Fw%2Fsearch
+Batterie 9V,,,,,,
